@@ -48,10 +48,10 @@ Until the secret exists, both workflows fail.
 
 ### Service account setup (one time)
 
-Replace `<project-id>` with the Firebase project ID from `.firebaserc`.
+The Firebase project is `launchio-420f7` (see `.firebaserc`); the site is served at `https://launchio-420f7.web.app`.
 
 ```bash
-PROJECT_ID=<project-id>
+PROJECT_ID=launchio-420f7
 SA=github-action-hosting@$PROJECT_ID.iam.gserviceaccount.com
 
 gcloud iam service-accounts create github-action-hosting \
