@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://launchio-420f7.web.app/sitemap.xml
